@@ -56,20 +56,9 @@ end
 =end
 
 Then /^I press access with email$/ do 
-    relative_layout = query("android.widget.RelativeLayout")
-    result = nil
-        for layout in relative_layout 
-        	if (layout["id"]=="join_email")
-        		result=layout
-        	end
-        end
-
-    if (result.empty?)
-		fail("There is no ACCESS WITH EMAIL BUTTON")
-	else
-		touch(result)
-    end
     
+	emailButton=query("* id:'join_email'")
+	touch(emailButton)
 end
 
 

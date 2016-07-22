@@ -4,4 +4,10 @@ source "https://rubygems.org"
 
 gem 'parallel_calabash'
 gem 'calabash-android'
+gem 'selenium-webdriver'
+gem 'rspec-expectations'
+gem 'gmail'
+gem 'rspec'
+
+
 # gem "rails"
