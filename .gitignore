@@ -1,0 +1,11 @@
+# Packages #
+###################
+*.apk
+
+# OS generated files #
+######################
+*.DS_Store
+
+# Logs and databases #
+######################
+*.irb-history
