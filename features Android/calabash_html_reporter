@@ -1,0 +1,3 @@
+touch reports.html
+calabash-android run app-demo-debug.apk --format html --out reports.html
+open reports.html
